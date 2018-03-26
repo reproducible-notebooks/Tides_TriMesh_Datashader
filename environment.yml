@@ -7,6 +7,7 @@ channels:
 
 dependencies:
  - attrs
+ - appmode
  - beautifulsoup4
  - bokeh
  - cartopy
@@ -21,8 +22,9 @@ dependencies:
  - distributed
  - fastparquet
  - flake8
- - geoviews
- - ioam::holoviews>=1.8.3
+ - ioam/label/dev::geoviews>=1.5.0
+ - gridgeo
+ - ioam/label/dev::holoviews>=1.10.0
  - ipython
  - iris
  - jupyter
@@ -31,6 +33,7 @@ dependencies:
  - matplotlib
  - nbconvert
  - nbformat
+ - netcdf4
  - networkx>=2.0
  - numba
  - numpy
@@ -51,8 +54,6 @@ dependencies:
  - tblib
  - xarray
  - yaml
- - netcdf4
- - gridgeo
  - pip:
    - cachey
    - streamz==0.2.0
