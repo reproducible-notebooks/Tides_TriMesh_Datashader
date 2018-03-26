@@ -10,7 +10,8 @@ dependencies:
   - geoviews
   - gridgeo
   - jupyter
-  - notebook
   - matplotlib
   - notebook
+  - notebook
+  - palettable
   - pandas
