@@ -12,5 +12,5 @@ dependencies:
   - jupyter
   - notebook
   - matplotlib
-  - notebook
+  - palettable
   - pandas
