@@ -22,9 +22,9 @@ dependencies:
  - distributed
  - fastparquet
  - flake8
- - ioam/label/dev::geoviews>=1.5.0
+ - ioam/label/dev::geoviews>=1.5
  - gridgeo
- - ioam/label/dev::holoviews>=1.10.0
+ - ioam/label/dev::holoviews>=1.10
  - ipython
  - iris
  - jupyter
