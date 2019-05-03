@@ -1,16 +1,13 @@
 channels:
-  - ioam/label/dev
   - conda-forge
   - defaults
-
 dependencies:
-  - ioam/label/dev::holoviews
+  - holoviews
   - appmode
   - datashader
   - geoviews
   - gridgeo
-  - jupyter
-  - notebook
   - matplotlib
   - palettable
   - pandas
+  - bokeh
